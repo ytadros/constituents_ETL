@@ -10,11 +10,6 @@ This app is designed to aggregate data from three csv files in its working direc
 - Install pandas
   - run **conda install pandas** in your terminal
   - This app was built using Pandas 1.2.5
-
-## Instructions:
-
-- Download the zipped project.
-- Extract the file *cons_pipeline.ipynb* into your working directory.
 - Ensure your working directory contains the following files:
   - ***cons.csv***, has to include the following columns:
     - "cons_id": *int*
@@ -28,7 +23,6 @@ This app is designed to aggregate data from three csv files in its working direc
   - ***cons_email.csv***, has to include the following columns:
     - "cons_email_id": *int*
     - "cons_id": *int*
-    - "is_validated": *boolean* (1 or 0)
     - "is_primary": *boolean* (1 or 0)
     - "email": *string*
     - "status": *boolean* (1 or 0)
@@ -36,8 +30,12 @@ This app is designed to aggregate data from three csv files in its working direc
     - "cons_email_chapter_subscription_id": *int*
     - "cons_email_id": *int*
     - "chapter_id": *int*
-    - "is_unsub": *boolean* (1 or 0)
+    - "isunsub": *boolean* (1 or 0)
 
+## Instructions:
 
-
-cons_email_chapter_subscription_id	   cons_email_id   	chapter_id	   isunsub	   unsub_dt	   modified_dt
+- Download the zipped project.
+- Extract the file *cons_pipeline.ipynb* into your working directory (the directory containing your raw data files).
+- In your terminal, run the command **jupyter notebook**. This will open your local directory in jupyter notebooks on your browser.
+- Within jupyter notebooks, navigate to your working directory and open *cons_pipeline.ipynb*
+- Follow the instructions in the notebook to run the pipeline.
