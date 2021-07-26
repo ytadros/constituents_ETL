@@ -7,7 +7,7 @@ This app is designed to aggregate data from three csv files in its working direc
 - Install the Anaconda distribution of Python
   - **https://www.anaconda.com/products/individual**
   - This app was built using Python 3.8.8 and Conda 4.10.3
-- Install pandas
+- Install Pandas
   - run **conda install pandas** in your terminal
   - This app was built using Pandas 1.2.5
 - Ensure your working directory contains the following files:
